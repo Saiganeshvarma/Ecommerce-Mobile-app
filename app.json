@@ -7,14 +7,11 @@
     "icon": "./assets/images/icon.png",
     "scheme": "ecommerceapp",
     "userInterfaceStyle": "automatic",
-
     "newArchEnabled": true,
-
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.ecommerce.app"
     },
-
     "android": {
       "package": "com.ecommerce.app",
       "adaptiveIcon": {
@@ -24,6 +21,11 @@
       "permissions": [
         "android.permission.RECORD_AUDIO"
       ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6959f7c8-c278-4cc4-bcc9-f97293fe8b74"
+      }
     }
   }
 }
