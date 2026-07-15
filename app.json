@@ -7,11 +7,14 @@
     "icon": "./assets/images/icon.png",
     "scheme": "ecommerceapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": false,
+
+    "newArchEnabled": true,
+
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.ecommerce.app"
     },
+
     "android": {
       "package": "com.ecommerce.app",
       "adaptiveIcon": {
@@ -21,36 +24,6 @@
       "permissions": [
         "android.permission.RECORD_AUDIO"
       ]
-    },
-    "web": {
-      "favicon": "./assets/images/favicon.png",
-      "bundler": "metro"
-    },
-    "plugins": [
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ],
-      [
-        "expo-image-picker",
-        {
-          "photosPermission": "Allow EcommerceApp to access your photos.",
-          "cameraPermission": "Allow EcommerceApp to use your camera."
-        }
-      ],
-      "expo-secure-store"
-    ],
-    "extra": {
-      "apiBaseUrl": "http://192.168.1.220:5001/api",
-      "eas": {
-        "projectId": "6959f7c8-c278-4cc4-bcc9-f97293fe8b74"
-      }
-    },
-    "owner": "saiganesh12345"
+    }
   }
 }
